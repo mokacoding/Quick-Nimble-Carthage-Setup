@@ -65,8 +65,7 @@
 		3F3697931B58D88F0038C063 = {
 			isa = PBXGroup;
 			children = (
-				3F3697C51B58DDFE0038C063 /* Nimble.framework */,
-				3F3697C61B58DDFE0038C063 /* Quick.framework */,
+				3F3697CA1B58DECB0038C063 /* Frameworks */,
 				3F36979E1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup */,
 				3F3697B31B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests */,
 				3F36979D1B58D88F0038C063 /* Products */,
@@ -105,6 +104,15 @@
 				3F3697B61B58D88F0038C063 /* Info.plist */,
 			);
 			path = "Quick-Nimble-Carthage-SetupTests";
+			sourceTree = "<group>";
+		};
+		3F3697CA1B58DECB0038C063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3697C51B58DDFE0038C063 /* Nimble.framework */,
+				3F3697C61B58DDFE0038C063 /* Quick.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
