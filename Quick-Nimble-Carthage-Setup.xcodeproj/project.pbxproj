@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3697A01B58D88F0038C063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36979F1B58D88F0038C063 /* AppDelegate.swift */; };
+		3F3697A21B58D88F0038C063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3697A11B58D88F0038C063 /* ViewController.swift */; };
+		3F3697A51B58D88F0038C063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3697A31B58D88F0038C063 /* Main.storyboard */; };
+		3F3697A71B58D88F0038C063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3697A61B58D88F0038C063 /* Assets.xcassets */; };
+		3F3697AA1B58D88F0038C063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3697A81B58D88F0038C063 /* LaunchScreen.storyboard */; };
+		3F3697B51B58D88F0038C063 /* Quick_Nimble_Carthage_SetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3697B41B58D88F0038C063 /* Quick_Nimble_Carthage_SetupTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3697B11B58D88F0038C063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3697941B58D88F0038C063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F36979B1B58D88F0038C063;
+			remoteInfo = "Quick-Nimble-Carthage-Setup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F36979C1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick-Nimble-Carthage-Setup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F36979F1B58D88F0038C063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3697A11B58D88F0038C063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3697A41B58D88F0038C063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3697A61B58D88F0038C063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3697A91B58D88F0038C063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3697AB1B58D88F0038C063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3697B01B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick-Nimble-Carthage-SetupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3697B41B58D88F0038C063 /* Quick_Nimble_Carthage_SetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Nimble_Carthage_SetupTests.swift; sourceTree = "<group>"; };
+		3F3697B61B58D88F0038C063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3697991B58D88F0038C063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3697AD1B58D88F0038C063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3697931B58D88F0038C063 = {
+			isa = PBXGroup;
+			children = (
+				3F36979E1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup */,
+				3F3697B31B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests */,
+				3F36979D1B58D88F0038C063 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		3F36979D1B58D88F0038C063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F36979C1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup.app */,
+				3F3697B01B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F36979E1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup */ = {
+			isa = PBXGroup;
+			children = (
+				3F36979F1B58D88F0038C063 /* AppDelegate.swift */,
+				3F3697A11B58D88F0038C063 /* ViewController.swift */,
+				3F3697A31B58D88F0038C063 /* Main.storyboard */,
+				3F3697A61B58D88F0038C063 /* Assets.xcassets */,
+				3F3697A81B58D88F0038C063 /* LaunchScreen.storyboard */,
+				3F3697AB1B58D88F0038C063 /* Info.plist */,
+			);
+			path = "Quick-Nimble-Carthage-Setup";
+			sourceTree = "<group>";
+		};
+		3F3697B31B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3697B41B58D88F0038C063 /* Quick_Nimble_Carthage_SetupTests.swift */,
+				3F3697B61B58D88F0038C063 /* Info.plist */,
+			);
+			path = "Quick-Nimble-Carthage-SetupTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F36979B1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3697B91B58D88F0038C063 /* Build configuration list for PBXNativeTarget "Quick-Nimble-Carthage-Setup" */;
+			buildPhases = (
+				3F3697981B58D88F0038C063 /* Sources */,
+				3F3697991B58D88F0038C063 /* Frameworks */,
+				3F36979A1B58D88F0038C063 /* Resources */,
+				12DF55C0B1DE229CE7859214 /* Warn for TODO and FIXME comments */,
+				642558B6BDCB51B99ECDED6F /* Set version number */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quick-Nimble-Carthage-Setup";
+			productName = "Quick-Nimble-Carthage-Setup";
+			productReference = 3F36979C1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3697AF1B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3697BC1B58D88F0038C063 /* Build configuration list for PBXNativeTarget "Quick-Nimble-Carthage-SetupTests" */;
+			buildPhases = (
+				3F3697AC1B58D88F0038C063 /* Sources */,
+				3F3697AD1B58D88F0038C063 /* Frameworks */,
+				3F3697AE1B58D88F0038C063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3697B21B58D88F0038C063 /* PBXTargetDependency */,
+			);
+			name = "Quick-Nimble-Carthage-SetupTests";
+			productName = "Quick-Nimble-Carthage-SetupTests";
+			productReference = 3F3697B01B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3697941B58D88F0038C063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mokacoding;
+				TargetAttributes = {
+					3F36979B1B58D88F0038C063 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3F3697AF1B58D88F0038C063 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3F36979B1B58D88F0038C063;
+					};
+				};
+			};
+			buildConfigurationList = 3F3697971B58D88F0038C063 /* Build configuration list for PBXProject "Quick-Nimble-Carthage-Setup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3697931B58D88F0038C063;
+			productRefGroup = 3F36979D1B58D88F0038C063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F36979B1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup */,
+				3F3697AF1B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F36979A1B58D88F0038C063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3697AA1B58D88F0038C063 /* LaunchScreen.storyboard in Resources */,
+				3F3697A71B58D88F0038C063 /* Assets.xcassets in Resources */,
+				3F3697A51B58D88F0038C063 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3697AE1B58D88F0038C063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12DF55C0B1DE229CE7859214 /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"swift|h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		642558B6BDCB51B99ECDED6F /* Set version number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Set version number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "git=$(sh /etc/profile; which git)\ngit_release_version=$(\"$git\" describe --tags --always --abbrev=0)\nnumber_of_commits=$(\"$git\" rev-list master | wc -l | tr -d ' ')\ntarget_plist=\"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\ndsym_plist=\"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Info.plist\"\n\nfor plist in \"$target_plist\" \"$dsym_plist\"; do\n  if [ -f \"$plist\" ]; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $number_of_commits\" \"$plist\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString ${git_release_version#*v}\" \"$plist\"\n  fi\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3697981B58D88F0038C063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3697A21B58D88F0038C063 /* ViewController.swift in Sources */,
+				3F3697A01B58D88F0038C063 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3697AC1B58D88F0038C063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3697B51B58D88F0038C063 /* Quick_Nimble_Carthage_SetupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3697B21B58D88F0038C063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F36979B1B58D88F0038C063 /* Quick-Nimble-Carthage-Setup */;
+			targetProxy = 3F3697B11B58D88F0038C063 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3697A31B58D88F0038C063 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3697A41B58D88F0038C063 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3697A81B58D88F0038C063 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3697A91B58D88F0038C063 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3697B71B58D88F0038C063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3697B81B58D88F0038C063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3697BA1B58D88F0038C063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quick-Nimble-Carthage-Setup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mokacoding.Quick-Nimble-Carthage-Setup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F3697BB1B58D88F0038C063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "Quick-Nimble-Carthage-Setup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mokacoding.Quick-Nimble-Carthage-Setup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F3697BD1B58D88F0038C063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Quick-Nimble-Carthage-SetupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mokacoding.Quick-Nimble-Carthage-SetupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick-Nimble-Carthage-Setup.app/Quick-Nimble-Carthage-Setup";
+			};
+			name = Debug;
+		};
+		3F3697BE1B58D88F0038C063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Quick-Nimble-Carthage-SetupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mokacoding.Quick-Nimble-Carthage-SetupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick-Nimble-Carthage-Setup.app/Quick-Nimble-Carthage-Setup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3697971B58D88F0038C063 /* Build configuration list for PBXProject "Quick-Nimble-Carthage-Setup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3697B71B58D88F0038C063 /* Debug */,
+				3F3697B81B58D88F0038C063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3697B91B58D88F0038C063 /* Build configuration list for PBXNativeTarget "Quick-Nimble-Carthage-Setup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3697BA1B58D88F0038C063 /* Debug */,
+				3F3697BB1B58D88F0038C063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3697BC1B58D88F0038C063 /* Build configuration list for PBXNativeTarget "Quick-Nimble-Carthage-SetupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3697BD1B58D88F0038C063 /* Debug */,
+				3F3697BE1B58D88F0038C063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3697941B58D88F0038C063 /* Project object */;
+}
