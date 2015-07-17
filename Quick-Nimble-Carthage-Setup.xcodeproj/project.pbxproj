@@ -63,9 +63,9 @@
 				3F3697B31B58D88F0038C063 /* Quick-Nimble-Carthage-SetupTests */,
 				3F36979D1B58D88F0038C063 /* Products */,
 			);
-			indentWidth = 4;
+			indentWidth = 2;
 			sourceTree = "<group>";
-			tabWidth = 4;
+			tabWidth = 2;
 			usesTabs = 0;
 		};
 		3F36979D1B58D88F0038C063 /* Products */ = {

@@ -1,2 +1,6 @@
 *.pbxproj merge=union
 *.strings text diff
+
+# Original .gitattributes contents
+*.pbxproj merge=union
+*.strings text diff
